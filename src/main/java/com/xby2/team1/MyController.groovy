@@ -8,7 +8,7 @@ class MyController {
 
     @GetMapping(value = "/")
     String index() {
-        return "This is the root. Nothing to see here."
+        return "This is the root. Nothing to see here. Groovy version"
     }
 
 }
